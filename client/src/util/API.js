@@ -8,7 +8,7 @@ export default {
   search: function(query) {
     return axios.get(BASEURL + query );
   },
-  getBook: function() {
+  getBooks: function() {
     return axios.get("/api/books")
   },
 
